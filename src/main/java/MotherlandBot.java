@@ -5,7 +5,7 @@ public class MotherlandBot {
 
 
     public static void main(String[] args) {
-        String token = "OTQ2MTk4OTk3OTAxNjQ3OTQy.YhbOfA.0OONyjZEcOfc4CGjAqJHtMj6xZY";
+        String token = "put your private token here ";
 
         DiscordApi api = new DiscordApiBuilder().setToken(token).login().join();
 
